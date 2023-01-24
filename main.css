@@ -1,0 +1,104 @@
+body
+{
+background-color: #000011;
+
+}
+
+#a1{
+    font-size: 125px;
+    word-spacing:1in;
+    letter-spacing: 12px;
+    color: #ffffff;
+    font-family: 'Circus Of Innocents';
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 33%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#b1
+{
+    font-size: 25pt;
+    font-family: 'Circus Of Innocents';
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    letter-spacing: 6px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffd600;
+}
+
+#c1{
+    list-style: none;
+    text-decoration: none;    
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    left: 85%; padding-left: 20px;
+    
+    
+}
+#d1{
+    list-style: none;
+    text-decoration: none;    
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  
+    position: absolute;
+    right: 40%;
+    
+}
+
+
+@media screen and (max-width:935px)
+{
+    #a1{
+        font-size: 100px;
+        top: 36%;
+    }
+    #b1{
+        font-size: 24px;
+    }
+    #c1{
+        left: 80%;
+    }
+    #d1{
+
+    }
+}
+@media screen and (max-width:700px)
+{
+    #a1{
+        font-size: 90px;
+        top: 37%;
+        letter-spacing: 10px;
+    }
+    #b1{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    #c1{
+        left: 75%;
+    }
+}
+@media screen and (max-width:650px)
+{
+    #a1{
+        font-size: 70px;
+        top: 40%;
+        letter-spacing: 8px;
+    }
+    #b1{
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+    #c1{
+        left: 75%;
+    }
+}
